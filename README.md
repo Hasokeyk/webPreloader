@@ -12,8 +12,8 @@ Jquery kütüphanesinin hemen altına aşağıdaki javascript ve css dosyaları 
 
 # Uzak dosyadan çağırmak isterseniz.
 
-	<script type="text/javascript" src="https://app.hayatikodla.net/webPreloader/webPreloader.js"></script>
-	<link rel="stylesheet" href="https://app.hayatikodla.net/webPreloader/webPreloader.css">
+	<script type="text/javascript" src="//app.hayatikodla.net/webPreloader/webPreloader.js"></script>
+	<link rel="stylesheet" href="//app.hayatikodla.net/webPreloader/webPreloader.css">
 
 # HTML Etiketini Ekleme
 Html etiketi sayfa yüklendiğinde DOM'da olması gerektiği için kendi dosyanıza eklenmesi gerekmektedir.
