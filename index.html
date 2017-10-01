@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="tr-TR">
+<head>
+	<meta charset="UTF-8">
+
+	<!--SEO-->
+	<title>Hayatı Kodla - Web Preloader</title>
+	<meta name="description"  content="Hayatı Kodla için yapılmış web preloader" />
+
+	<!--CSS-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/webPreloader.css">
+
+	<!--JS-->
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/webPreloader.js"></script>
+	<script type="text/javascript">
+	jQuery(function($){
+		$(window).webPreloader();
+		
+		//PARAMETRELER
+		/*
+			sound : çalacak olan mp3 tam yolu
+		*/
+	});
+	</script>
+
+</head>
+<body>
+	
+	<div class="webPreloader">
+		<div id="cssload-pgloading">
+			<div class="cssload-loadingwrap">
+				<ul class="cssload-bokeh">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!--BÜYÜK DOSYA-->
+	<img src="assets/img/big-file.jpeg" alt="Hayatı Kodla" />
+	<!--BÜYÜK DOSYA-->
+	
+</body>
+</html>
