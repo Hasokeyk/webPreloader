@@ -40,7 +40,7 @@ yukarıdaki html etiketlerini eklemeniz gerekmektedir.
 
 # Demo
 
-https://app.hayatikodla.net/webPreloader/demo/
+https://hasokeyk.github.io/webPreloader/
 
 # Parametreler
 
